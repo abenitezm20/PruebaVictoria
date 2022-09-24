@@ -1,6 +1,6 @@
 #Importar unittest para crear las pruebas unitarias
 from pickle import TRUE
-from signal import raise_signal
+#from signal import raise_signal OJO OMENTAR ESTO
 import unittest
 from src.modelo.automovil import Automovil
 
