@@ -3,6 +3,7 @@ from pickle import TRUE
 #from signal import raise_signal OJO OMENTAR ESTO
 import unittest
 from src.modelo.automovil import Automovil
+import numpy
 
 #from src.logica.Logica import Logica
 from src.logica.Logica import Logica
