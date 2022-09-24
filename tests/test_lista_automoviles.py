@@ -34,10 +34,10 @@ class TestListaAutomovil(unittest.TestCase):
             self.assertIsInstance(automovil_nuevo, Automovil)
 
 
-    def test_lista_ordenada(self):
-        '''Valida que los elementos de la lista se presenten de forma ordenada por marca'''
-        resultado = self.logica.dar_autos()
+    # def test_lista_ordenada(self):
+    #     '''Valida que los elementos de la lista se presenten de forma ordenada por marca'''
+    #     resultado = self.logica.dar_autos()
 
-        resultadoOrdenado = sorted(resultado, key=lambda x: x['Marca'])
+    #     resultadoOrdenado = sorted(resultado, key=lambda x: x['Marca'])
 
-        self.assertEqual(resultado, resultadoOrdenado)
+    #     self.assertEqual(resultado, resultadoOrdenado)
